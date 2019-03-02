@@ -8,6 +8,9 @@
 /*#navbar.shadow {*/
     /*box-shadow: 0 0 1rem 0 rgba(0,0,0,0.33) !important;*/
 /*}*/
+body {
+    font-family: "Nunito", sans-serif;
+}
 
 .hero-body {
     background-color: #F7F7F7;
