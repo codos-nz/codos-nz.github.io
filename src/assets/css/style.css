@@ -1,27 +1,50 @@
+/*#navbar {*/
+    /*transition:box-shadow 1s;*/
+    /*-moz-transition:box-shadow 1s;*/
+    /*-webkit-transition:box-shadow 1s;*/
+    /*-ms-transition:box-shadow 1s;*/
+    /*-o-transition:box-shadow 1s;*/
+/*}*/
+/*#navbar.shadow {*/
+    /*box-shadow: 0 0 1rem 0 rgba(0,0,0,0.33) !important;*/
+/*}*/
+
 .hero-body {
-    background-color: #ffffff;
+    background-color: #F7F7F7;
     color: #000000;
 }
 .brand-name {
     font-family: 'Source Code Pro', monospace;
-    font-size: 6rem;
-    font-weight: 800;
+    font-size: 4rem;
+    font-weight: 400;
+    color: #000000;
     /*background-color: black;*/
     /*text-size: 60px;*/
+    /*box-shadow: 0 0 8px 0 rgba(0,0,0,0.12) !important;*/
 
 }
 
-.subtitle {
-    color: #000000;
-}
+/*.title .slogan {*/
+    /*color: #000000;*/
+/*}*/
 
 .blink-cursor {
     animation: blink 1s steps(1) infinite;
+    /*box-shadow: 0 0 1rem 0 rgba(0,0,0,0.33) !important;*/
 }
 @keyframes blink{
     50% {
         color: transparent;
     }
+}
+
+.navbar.is-link {
+    background-color: #4a4a4a;
+    color: #ffffff;
+}
+
+.navbar-menu a:hover {
+    color: #E02020;
 }
 
 .has-same-height .card {
