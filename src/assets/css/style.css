@@ -94,3 +94,7 @@ th {
 .button.is-danger {
     background-color: rgba(196,0,23,.95);
 }
+
+#honeypot {
+    display: none; /*makes the field not visible to humans*/
+  }
