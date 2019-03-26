@@ -1,2 +1,2 @@
-# bulma-codos
-[![Build Status](https://travis-ci.com/dulinnan/bulma-codos.svg?branch=master)](https://travis-ci.com/dulinnan/bulma-codos)
+#codos
+[![Build Status](https://travis-ci.org/codos-nz/codos-nz.github.io.svg?branch=master)](https://travis-ci.org/codos-nz/codos-nz.github.io)
