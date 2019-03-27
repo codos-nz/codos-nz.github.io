@@ -1,6 +1,8 @@
 ---
 layout: terms
 title: Terms and Conditons
+last_modified_at: 24-Mar-2019
+description: CODOS Terms and Conditions
 permalink: /terms
 ---
 

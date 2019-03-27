@@ -5,6 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta itemprop="description" name="description"
+        content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}" />
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:image" content="{{ site.url }}/thumbs/{{ page.image }}" />
+    <meta property="og:site_name" content="CODOS">
+    <meta property="article:publisher" content="https://www.facebook.com/Codoswebservices/" />
+    <meta property="article:author" content="https://www.facebook.com/adam.du.chch" />
+    <meta property="article:published_time" content="{{ page.date }}" />
+    <meta property="og:description"
+        content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <link rel="icon" href="src/assets/image/codos/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="src/assets/image/codos/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Crete+Round|Quattrocento" rel="stylesheet">

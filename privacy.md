@@ -1,6 +1,8 @@
 ---
 layout: terms
 title: Privacy Policy
+last_modified_at: 24-Mar-2019
+description: CODOS Privacy Policy
 permalink: /privacy
 ---
 

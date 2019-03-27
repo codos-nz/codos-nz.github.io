@@ -15,9 +15,9 @@
 # in the templates via {{ site.myvariable }}.
 title: CODOS
 email: contact@codos.co.nz
-description: Website Development Service. At Codos we offer profesionally designed websites on time at a great price that suits your budget. 
+description: Website Development Service
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://codos.co.nz" # the base hostname & protocol for your site, e.g. http://example.com
 author: CODOS
 seo: 
   type: CreativeWork 
