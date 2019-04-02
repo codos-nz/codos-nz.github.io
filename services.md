@@ -2,7 +2,7 @@
 layout: terms
 title: CODOS Services
 last_modified_at: 27-Mar-2019
-description: CODOS Web Services
+description: CODOS Web Dev Services
 permalink: /service
 ---
 # {{ page.title }}

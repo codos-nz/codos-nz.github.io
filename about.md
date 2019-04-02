@@ -1,8 +1,8 @@
 ---
 layout: terms
 title: About Us
-last_modified_at: 27-Mar-2019
-description: 
+last_modified_at: 03-Apr-2019
+description: Codos About Us
 permalink: /about
 ---
 
